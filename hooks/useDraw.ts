@@ -25,7 +25,7 @@ export const useDraw = (
   useEffect(() => {
     const handler = (e: MouseEvent) => {
       if (!mouseDown) return;
-      console.log({ x: e.clientX, y: e.clientY });
+      // console.log({ x: e.clientX, y: e.clientY });
 
       const currentPoint = computePointInCanvas(e);
 
